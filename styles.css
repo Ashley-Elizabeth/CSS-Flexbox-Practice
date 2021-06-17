@@ -1,0 +1,95 @@
+
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    
+}
+
+.title span {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    /* background-image: linear-gradient(blue, yellow);*/
+    background-color: blue;
+    max-width: 1000px;
+    height: 400px;
+    margin: 80px auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.item {
+    background-color:chartreuse;
+    width: 200px;
+    height: 75px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    margin: .5px;
+    
+}
+
+.item:hover {
+    color: white;
+}
+
+.one {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 85%;
+}
+
+.two {
+    
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+
+.three {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.four {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    
+}
+
+.five {
+    order: 0;
+}
+
+.six {
+    order: 0;
+}
+
+.seven {
+    order: 0;
+}
+
+.eight {
+    
+    order: 0;
+    flex-basis: 85%;
+    
+}
